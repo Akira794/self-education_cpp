@@ -1,0 +1,3 @@
+int main()
+{
+	sample ob1(100,X)

@@ -1,0 +1,6 @@
+new 演算子とdelete 演算子の一般形式は
+
+p-var = new type;
+delete p-ver;
+
+

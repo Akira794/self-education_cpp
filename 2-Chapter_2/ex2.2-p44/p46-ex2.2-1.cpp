@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+class myclass{
+	
+	int a, b;
+
+public:
+
+	myclass(int x, int y);//コンストラクタ
+	void show();
+
+};
+
+myclass::myclass(int x, int y){
+	
+	cout << "コンストラクタ呼び出し \n";
+	a = x;
+	b = y;
+
+}
+
+void myclass::show(){
+
+	cout << a << ' ' << b << "\n";
+
+}
+
+int main(){
+
+	myclass ob(4, 7);
+	ob.show();
+	return 0;
+
+}
+
+

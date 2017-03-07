@@ -1,0 +1,5 @@
+int light(planet o)
+{
+	return o.get_miles() / 186000;
+}
+

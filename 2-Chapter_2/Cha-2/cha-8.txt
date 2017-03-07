@@ -1,0 +1,6 @@
+union {
+	float f;
+	unsigned int bits;
+};
+
+↑ 有効: これは無名共用体を定義するプログラムコード
